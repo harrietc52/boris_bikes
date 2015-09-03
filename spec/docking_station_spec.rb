@@ -15,10 +15,6 @@ describe DockingStation do
   	it 'raises an error when there are no bikes available' do
   		expect { subject.release_bike }.to raise_error 'No bikes available'
   	end
-
-    #comment added
-    it do
-    end
   end
 
 end

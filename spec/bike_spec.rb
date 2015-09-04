@@ -9,7 +9,7 @@ describe Bike do
   end
 
   it "report broken" do
-  subject.report_broken
-  expect(subject.broken?).to eq(true)
+  	subject.report_broken
+  	expect(subject.broken?).to eq(true)
 	end
 end
